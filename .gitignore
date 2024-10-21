@@ -1,32 +1,43 @@
-# Prerequisites
+# PlatformIO specific
+/.pio/
+/.pioenvs/
+/.pio/build/
+/.pio/libdeps/
+
+# Compiled Object Files
+*.o
+*.elf
+*.bin
+*.hex
+*.a
+
+# Build Directories
+build/
+lib/
+target/
+
+# Arduino specific files
+*.pdb
+*.map
 *.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
 
-# Precompiled Headers
-*.gch
-*.pch
+# Temporary files
+*.tmp
+*.temp
+*.log
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# Operating System files
+.DS_Store
+Thumbs.db
 
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# User-specific files
+*.user
+*.sublime-project
+*.sublime-workspace
